@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <title>FOOD MASTER CUSTOMER RECORD</title>
+        <meta charset="UTF-8">
+        
+    </head>
+
+    <body>
+        	<style>
+	body
+{
+background-color:black;
+color:white;
+}
+th,td{
+    font-size: 20px;
+    padding:10px;
+}
+   
+    h1{
+        font-family: serif;
+        background: crimson;
+    }
+	</style>
+        <h1 style="padding-left:40px;color:yellow; font-size:50px;" >CAFETERIA CUSTOMER SERVICE-FOODMaster</h1>
+        <div style="float:left; margin-top: -10px;" >
+		<form action="insert_candidate.jsp" method="post">
+		<table align="center" style="font-family:sans-serif;margin-left: 80px;margin-right: 30px;">
+      <tr>
+          <th colspan="2" style="padding:10px;font-family:serif; background-color: brown;font-size: 25px">REGISTER A NEW STUDENT</th><br>
+       </tr>
+       
+       <tr>
+           <th>	<label>Name</label></th><th><input style="font-size:20px;font-family: sans-serif" type="text" name="rname"/> </th></br>
+       </tr> 
+       
+       <tr>
+      <th>Year</th><th><input style="font-size:20px;font-family: sans-serif" type="text" name="year"/> </th></br>
+       </tr>
+       <tr>
+      <th>Library Id</th>
+	  <th> <input style="font-size:20px;font-family: sans-serif" type="text" name="id"/></th></br>
+       </tr>
+        <tr>   
+            <th>Money deposited  </th><th> <input style="font-size:20px;font-family: sans-serif" type="text" name="money"/></th></br>
+        </tr>
+        
+        
+        
+        <tr>
+            <th><input style="background-color: crimson; color: white;" type="reset" value="Clean">
+            </th><th><input style="background-color: crimson; color: white;" type="submit" value="Signup"></th> </br> 
+        </tr>
+        
+       
+   </table> 
+    </form> 
+		
+		
+		</div>
+		<div style="float:centre">
+			<form action="search_candi.jsp" method="post">
+			<table style="margin-top: 40px; font-family: sans-serif;"align="center">
+		
+      <tr>
+          <th colspan="2" style="padding:10px;font-family: serif; background-color: brown;font-size: 25px;">SEARCH CANDIDATE</th></br>
+       </tr>
+	    <td>Library Id</td>
+	  <td> <input style="font-size:20px;font-family: sans-serif" type="text" name="id"/></td></br>
+	  
+       </tr>
+	    <tr>
+                <th><input style="background-color: crimson; color: white;"type="reset" value="Clean"></th><th>
+                <input style="background-color: crimson; color: white;"type="submit" value="Search"></th> </br> 
+        </tr>
+        </table>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <a href="fulldb.jsp" style="background-color: brown; color: yellow; font-size: 25px;padding:15px; margin-left: 250px;  ">SEE WHOLE LIST </a><br>
+        
+		</div>
+        <br>
+        
+</html>
